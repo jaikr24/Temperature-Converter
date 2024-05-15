@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+
+}
+
+label {
+    font-size: 18px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.alignment-div {
+    display: flex;
+    background-color: blueviolet;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: .7rem;
+    box-shadow: 0 .2rem 1rem rgba(0, 0, 0, .4);
+
+}
+
+.t-input {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.t-input:focus {
+    border: 1px solid blueviolet;
+}
